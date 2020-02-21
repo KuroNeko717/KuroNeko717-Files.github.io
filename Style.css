@@ -1,0 +1,13 @@
+.nav-wrapper{
+    opacity: 1;
+}
+
+.bg{
+    background-size: cover;
+    background-color: aqua;
+}
+.bgimg{
+
+    height: 75%;
+    width: 75%;
+}
