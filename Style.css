@@ -1,13 +1,41 @@
-.nav-wrapper{
-    opacity: 1;
+body{
+    background-color: black;
 }
 
-.bg{
-    background-size: cover;
-    background-color: aqua;
+@media only screen and(min-width: 755px){
+    .about-me-text{
+        transform: translateX(10%);
+    }
 }
-.bgimg{
 
-    height: 75%;
-    width: 75%;
+.about-me-text{
+    left: 50%;
+    font-size: 28px;
+    margin-top: 100px;
+    transform: translateX(10%);
+}
+.display-img{
+    width: 35vw;
+    border-radius: 0%;
+    transform: translateX(20%);
+
+}
+
+.fa{
+    font-size: 50px;
+}
+
+.prog-lang{
+    background-color: darkslategray;
+    margin-top: 110px;
+    font-size: 20px;
+}
+
+.lang-img{
+    width: 9vw;   
+}
+
+.lang-img-java{
+    margin-bottom: 70px;
+    width: 7vw;
 }

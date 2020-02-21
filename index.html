@@ -2,15 +2,23 @@
 
 <head>
     <!--Import Google Icon Font-->
+    <link href="https://fonts.googleleapis.co/icon?family=Material+Icons" rel="stylesheet">
     <script  src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous">
-  $(document).ready(function(){
-    $('.sidenav').sidenav();
-  });
-</script>
-<!-- Compiled and minified CSS-->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  crossorigin="anonymous"></script>
+    <!--Import Mterialize.CSS--> <!-- Compiled and minified CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!--Let Browser know website is optimized for mobile-->
+    <meta name="viewport" content!="width=device-width, initial-scale=1.0" />
+    <script src=https://use.fontawesome.com/35b846817f></script>
+  
+    <script>
+        $(document).ready(function(){
+        $('.sidenav').sidenav();
+        });
+    </script>
 
 </head>
 
@@ -20,15 +28,16 @@
         <div class="nav-wrapper black">
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#about-me">About Me</a></li>
-            <li><a href="#Achievments">Achievments</a></li>
-            <li><a href="#Projects">Projects</a></li>
-            <li><a href="#Resume">Resume</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">About Me</a></li>
+            <li><a href="">Achievments</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Resume</a></li>
           </ul>
         </div>
       </nav>
-    
+    <!--Sidenav which will appear when we will shrink the screen-->
+
       <ul class="sidenav" id="mobile-demo">
         <li><a href="#Home">Home</a></li>
         <li><a href="#about-me">About Me</a></li>
@@ -38,11 +47,52 @@
       </ul>
     </nav> <!--Navbar End-->
 
-    <!--Main Body-->
-    <div class="bg">
-        <img class="bgimg" src="https://cdn.wallpapersafari.com/40/47/Kpi0y6.jpg">
+    <!--Content Body End-->
+
+    <!--About Me Section Start-->
+    <div class="row">
+        <h1 class="center white-text">Welcome, Am Joel Liao</h1><br>
+        <div class="col s12 m6 l6 about-me-text">
+            <p class="white-text">
+                Hi !!!, My Name is Joel Liao Liang Chyang and I love learning lots of new stuff, Anime, Music, Japan, 
+                Drawing and many other things. Some of my favourite animes are Ginatama, Fairy Tail, One Piece, Bleach, My Hearo Academia,
+                Blck clover, Monogatari Series, One Punch Man, Nisekoi, Naruto Shipuden, nantsu No Taizai, Zero No tsukaima, Hunter X Hunter,
+                Beelzebub, Sword Art Online, Btooom!!, Log Horizon, No Game No Life, Attack on Titan, Akame Ga Kill and many other animes.</p>
+        </div>
+        <div class="col m6 l6 hide-on-med-and-down">
+            <img class="display-img" src="https://cdn.guidingtech.com/imager/assets/215501/best-bleach-anime-wallpaper_4d470f76dc99e18ad75087b1b8410ea9.jpg?1549108742" style="padding: 2%;" alt="My Image">
+        </div>
+        <div class="col m6 l6 hide-on-med-and-down">
+            <img class="display-img" src="https://images.wallpapersden.com/image/download/sung-jin-woo-anime-art_67920_1920x1080.jpg" alt="My Image">
+        </div>
     </div>
-    <!--Main Body End-->
+    <!--About Me Section End-->
+
+    <!--Proraming Languages-->
+        <div class="prog-lang">
+            <h1 class="white-text center">Some Languages Which Am Familiar with</h1>
+            <div class="row">
+                <div class= "col s12 m2 l2">
+                    <img class="lang-img-java" src="https://www.stickpng.com/assets/images/58480979cef1014c0b5e4901.png" style=padding-left:6% alt="Java">
+                </div>
+                <div class="col s12 m2 l2">
+                    <img class="lang-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png" alt="Python">
+                </div>
+                <div class="col s12 m2 l2">
+                    <img class="lang-img" src="https://cdn.iconscout.com/icon/free/png-256/c-programming-569564.png" alt="C">
+                </div>
+                <div class="col s12 m2 l2">
+                    <img class="lang-img" src="https://pluspng.com/img-png/logo-javascript-png-js-logo-png-512.png" alt="Java Script">
+                </div>
+                <div class="col s12 m2 l2">
+                    <img class="lang-img" src="https://www.stickpng.com/assets/images/5847f5bdcef1014c0b5e489c.png" alt="HTML">
+                </div>
+                <div class="col s12 m2 l2">
+                    <img class="lang-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png" alt="C++">
+                </div>
+        </div>
+    
+    <!--Initializing for Javascripts-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
         $(document).ready(function () {
             $('.sidenav').sidenav();
